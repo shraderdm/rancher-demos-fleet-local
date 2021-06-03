@@ -1,0 +1,10 @@
+helm:
+  repo: https://raw.githubusercontent.com/nikkelma/rancher-demos-charts/main/
+  chart: cluster-gke-a
+  version: 0.1.1
+  values:
+    clusterName: cluster-wujgrdwgtv
+    clusterDisplayName: demo-gke-a
+    googleCredentialSecret: cattle-global-data:cc-vlcvw
+    googleProjectID: nikkelma
+    zone: us-east4-b
