@@ -1,0 +1,9 @@
+helm:
+  repo: https://raw.githubusercontent.com/nikkelma/rancher-demos-charts/main/
+  chart: cluster-eks-a
+  version: 0.1.4
+  values:
+    clusterName: cluster-zrqhqprfpf
+    clusterDisplayName: demo-eks-b
+    amazonCredentialSecret: cattle-global-data:cc-th64z
+    region: us-east-1
