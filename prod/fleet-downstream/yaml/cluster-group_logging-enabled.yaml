@@ -1,0 +1,10 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: ClusterGroup
+type: fleet.cattle.io.clustergroup
+metadata:
+  name: logging-enabled
+spec:
+  selector:
+    matchExpressions: []
+    matchLabels:
+      nikkelmaLoggingEnabled: enabled

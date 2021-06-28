@@ -1,0 +1,12 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: monitoring
+spec:
+  branch: main
+  insecureSkipTLSVerify: false
+  paths:
+  - monitoring
+  repo: https://github.com/nikkelma/rancher-demos-fleet-default
+  targets:
+  - clusterGroup: monitoring-enabled
