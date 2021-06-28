@@ -4,6 +4,6 @@ helm:
   version: 0.1.4
   values:
     clusterName: cluster-zrqhqprfpf
-    clusterDisplayName: demo-eks-b
-    amazonCredentialSecret: cattle-global-data:cc-th64z
-    region: us-east-1
+    clusterDisplayName: demo-eks-a
+    amazonCredentialSecret: cattle-global-data:cc-fsg9c
+    region: us-gov-east-1
