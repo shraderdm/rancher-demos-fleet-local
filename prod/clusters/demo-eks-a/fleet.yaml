@@ -3,7 +3,7 @@ helm:
   chart: cluster-eks-a
   version: 0.1.4
   values:
-    clusterName: cluster-zrqhqprfpf
+    clusterName: cluster-jjjjjjjjjk
     clusterDisplayName: demo-eks-a
     amazonCredentialSecret: cattle-global-data:cc-jpppq
     region: us-gov-west-1
