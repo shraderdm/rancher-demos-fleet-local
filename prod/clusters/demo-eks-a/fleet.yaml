@@ -5,5 +5,5 @@ helm:
   values:
     clusterName: cluster-zrqhqprfpf
     clusterDisplayName: demo-eks-a
-    amazonCredentialSecret: cattle-global-data:cc-h5rpw
-    region: us-gov-east-1
+    amazonCredentialSecret: cattle-global-data:cc-jpppq
+    region: us-gov-west-1
